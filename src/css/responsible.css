@@ -1,0 +1,10 @@
+@media(max-width: 740px) {
+    .card {
+        grid-template-areas:
+        "sedans"
+        "suvs"
+        "luxury";
+        grid-template-columns: 1, 320px;
+        grid-template-rows: repeat(3, 400px);
+    }
+}
