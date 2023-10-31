@@ -1,10 +1,33 @@
-@media(max-width: 740px) {
+@media(max-width: 768px) {
     .card {
         grid-template-areas:
         "sedans"
         "suvs"
         "luxury";
-        grid-template-columns: 1, 320px;
-        grid-template-rows: repeat(3, 400px);
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(3, 430px);
+        padding: 50px;
+    }
+
+    .sedans {
+        padding: 40px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .suvs {
+        padding: 40px;
+    }
+
+    .luxury {
+        padding: 50px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-top: 35px;
     }
 }
